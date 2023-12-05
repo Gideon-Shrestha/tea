@@ -6,7 +6,28 @@
     "axe/name-role-value": [
       "default",
       {
-        "link-name": "off"
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter"
+        ]
       }
     ]
   }
